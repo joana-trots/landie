@@ -1,0 +1,45 @@
+@import ../../vars
+@import ../../responsive
+
+.hero
+    position: relative
+    height: 100vh
+    padding-top: 0
+    background-image: url('../../assets/hero_bg.svg')
+    background-size: contain
+    background-repeat: no-repeat
+    background-position: top right
+    &__text
+        width: 540px
+        padding-top: 20vh
+    p
+        margin-top: 18px
+        font-size: 18px
+        line-height: 30px
+        color: $blue-text
+    &__cta
+        display: flex
+        gap: 30px
+        margin-top: 70px
+        .btn
+            height: 32px
+            line-height: 32px
+            font-size: 16px
+    @include media("<=desktop")
+        background-position: -20%
+        background-size: 120%
+        &__text
+            width: 56%
+            padding-top: 15vh
+    @include media("<=tablet")
+        background-position: -20% 25%
+        &__cta
+            flex-direction: column
+    @include media("<=600px")
+        background-size: 180%
+        background-position: -40% 100%
+        &__text
+            width: 100%
+
+
+

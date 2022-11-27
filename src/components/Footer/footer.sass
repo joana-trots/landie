@@ -1,0 +1,51 @@
+@import ../../vars
+@import ../../responsive
+
+.footer
+    padding: 26px 165px
+    background-image: url('../../assets/footer_bg.svg')
+    &__copy
+        display: flex
+        justify-content: space-between
+        align-items: center
+        padding: 36px 0 40px
+        p
+            font-weight: 500
+            font-size: 14px
+            line-height: 24px
+            color: #939EA4
+            margin: 0
+        .btn
+            width: 105px
+            height: 22px
+            line-height: 22px
+            font-size: 12px
+    &__navbar
+        display: flex
+        justify-content: space-between
+        align-items: center
+        border-top: 1px solid #CDD1D4
+        padding-top: 20px
+        nav
+            display: flex
+            gap: 60px
+            a
+                font-size: 14px
+                font-weight: 400
+                line-height: 24px
+                color: #929ECC
+                &:hover
+                    border-color: #929ECC   
+        &--social
+            display: flex
+            gap: 30px
+
+    @include media("<=desktop")
+        padding: 26px 10vw
+        width: auto
+    @include media("<=600px")
+        &__copy,
+        &__navbar
+            flex-direction: column
+            gap: 20px
+

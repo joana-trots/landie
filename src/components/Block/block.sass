@@ -1,0 +1,58 @@
+@import ../../vars
+@import ../../responsive
+.block
+    display: flex
+    align-items: center
+    gap: 30px
+    &:target
+        scroll-margin-top: 60px
+    @extend %transform
+    &:nth-of-type(2)
+        padding: 110px 165px
+    &:nth-of-type(3)
+        padding: 120px 165px 130px
+        .block__image
+            padding-left: 25px
+            padding-right: 95px
+    &__content
+        flex: 1
+    &__image
+        width: 50%      
+    &__options
+        display: flex
+        gap: 30px
+        padding-top: 80px
+        p
+            font-size: 12px
+            line-height: 18px
+            margin-top: 6px
+        img
+            margin-bottom: 14px
+    &--zoom
+        @extend %transform-zoom
+
+    @include media("<=desktop")
+        &:nth-of-type(2),
+        &:nth-of-type(3)
+            padding: 110px 10vw
+            width: auto
+        &:nth-of-type(3)
+            padding-top: 0
+            .block__image
+                padding: 0
+    @include media("<=600px")
+        flex-direction: column
+        &:target
+            scroll-margin-top: 150px
+        &:nth-of-type(2),
+        &:nth-of-type(3)
+            padding: 0 10vw
+        &__image
+            width: 100% 
+        &:nth-of-type(3)
+            padding-top: 60px
+            .block__image
+                order: 2
+
+
+

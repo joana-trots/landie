@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap')
+@import vars
+@import responsive
+
+*
+  padding: 0
+  margin: 0
+.App
+  box-sizing: border-box
+  margin: 0
+  padding: 0
+  font-family: 'Roboto', sans-serif
+a
+  text-decoration: none
+section
+  width: calc(100% - 330px)
+  padding: 0 165px
+  @include media("<=desktop")
+    padding: 0 10vw
+    width: auto
+h1
+  font-size: 50px
+  font-weight: 500
+  line-height: 66px
+  letter-spacing: 1px
+  color: $grey
+  @include media("<=desktop")
+    font-size: 42px
+    line-height: 58px
+  @include media("<=600px")
+    font-size: 36px
+    line-height: 46px
+
+h2
+  font-size: 36px
+  font-weight: 500
+  line-height: 48px
+  color: $grey
+  margin: 10px 0
+  @include media("<=desktop")
+    font-size: 32px
+    line-height: 44px
+  @include media("<=600px")
+    font-size: 28px
+    line-height: 40px
+h3
+  font-size: 16px
+  font-weight: 500
+  line-height: 26px
+  color: $grey
+p
+  font-size: 16px
+  font-weight: 400
+  line-height: 26px
+  color: $grey-text
+  margin-top: 14px
+.btn
+  display: inline-block
+  width: 185px
+  border-radius: 2px
+  outline: 0
+  font-family: 'Roboto', sans-serif
+  font-weight: 500
+  text-align: center
+  cursor: pointer
+  &__primary
+      color: $white
+      background-color: $dark-blue
+      border: 2px solid $dark-blue
+  &__secondary
+      color: $grey
+      background-color: transparent
+      border: 2px solid $grey
+nav
+  a
+    border-bottom: 1px solid transparent
+    transition: .5s
+    &:hover
+        border-color: $blue-text
+
+

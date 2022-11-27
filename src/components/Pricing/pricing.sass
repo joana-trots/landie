@@ -1,0 +1,43 @@
+@import ../../vars
+@import ../../responsive
+
+.pricing
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    background-image: url('../../assets/pricing_bg.svg')
+    background-position: center top
+    text-align: center
+    padding: 238px 165px 170px
+    &__content
+        @extend %transform
+    p
+        max-width: 600px
+    &--zoom
+        @extend %transform-zoom
+    &__cta
+        margin-top: 60px
+        .btn
+            height: 28px
+            line-height: 28px
+            font-size: 14px
+        p
+            font-size: 14px
+            line-height: 24px
+            margin-bottom: 9px
+    @include media("<=tablet")
+        padding: 138px 10vw 70px
+        width: auto
+.price
+    p
+        &:first-child
+            font-weight: 500
+            font-size: 50px
+            line-height: 66px
+            letter-spacing: 1px
+            color: #222F65
+            margin-top: 36px
+        &:last-child
+            color: $blue
+            margin-top: 0
