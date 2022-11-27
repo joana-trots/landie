@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/landie/static/css/main.c8e5c5f5.css",
+    "main.js": "/landie/static/js/main.0db3a6f7.js",
+    "static/js/787.a7cf236f.chunk.js": "/landie/static/js/787.a7cf236f.chunk.js",
+    "static/media/hero_bg.svg": "/landie/static/media/hero_bg.8cd99a81bb31bbba4aa0.svg",
+    "static/media/image_1.svg": "/landie/static/media/image_1.ebbb33910c6cffb06a82cd93d98ced7c.svg",
+    "static/media/image_2.svg": "/landie/static/media/image_2.9ba64b639c5566031ffa3d0d136d1382.svg",
+    "static/media/logo.svg": "/landie/static/media/logo.acf51d6b13da3efc311aa410053f3954.svg",
+    "static/media/icon_option.svg": "/landie/static/media/icon_option.06be9312675429e4040c6ba7c4c9140b.svg",
+    "static/media/icon_instagram.svg": "/landie/static/media/icon_instagram.8fb644c1b4e48f6f307e511676621b6d.svg",
+    "static/media/icon_twitter.svg": "/landie/static/media/icon_twitter.3d187d085d223cc2655f3948e18c9489.svg",
+    "index.html": "/landie/index.html",
+    "static/media/icon_linkedin.svg": "/landie/static/media/icon_linkedin.96bd786ac3c93e9456239c117f13b01b.svg",
+    "static/media/icon_youtube.svg": "/landie/static/media/icon_youtube.8ea513d6abbaddba6cdb9fd1c07c84dd.svg",
+    "static/media/icon_facebook.svg": "/landie/static/media/icon_facebook.1f63807b6c91c2b363752a2d576be786.svg",
+    "static/media/pricing_bg.svg": "/landie/static/media/pricing_bg.82c292bd9b0a2226c149.svg",
+    "static/media/footer_bg.svg": "/landie/static/media/footer_bg.8fde981945ae5f6f7bb5.svg",
+    "main.c8e5c5f5.css.map": "/landie/static/css/main.c8e5c5f5.css.map",
+    "main.0db3a6f7.js.map": "/landie/static/js/main.0db3a6f7.js.map",
+    "787.a7cf236f.chunk.js.map": "/landie/static/js/787.a7cf236f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8e5c5f5.css",
+    "static/js/main.0db3a6f7.js"
+  ]
+}
