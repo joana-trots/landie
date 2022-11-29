@@ -9,7 +9,7 @@ import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 
 const navbarLinks = [
-  {url: "/", title: "Home"},
+  {url: "/landie", title: "Home"},
   {url: "#about", title: "About"}, 
   {url: "#footer", title: "Contact"}
 ]
