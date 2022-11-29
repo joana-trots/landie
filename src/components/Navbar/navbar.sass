@@ -31,13 +31,15 @@
         height: 22px
         line-height: 22px
         font-size: 12px
+    .mobile-overlay
+        display: none
     @include media("<desktop")
         width: 100vw
         height: auto
+        min-height: 70px
         flex-direction: column
         gap: 60px
         padding: 0
-        background-color: $light-blue
         &__logo
             order: 1
             padding: 20px 0
@@ -48,6 +50,7 @@
             order: 3
             display: none 
         &--active
+            background-color: $light-blue !important
             nav
                 display: flex
                 flex-direction: column
@@ -55,7 +58,7 @@
                 margin-top: 90px
             .btn
                 display: block
-                margin-bottom: 60px   
+                margin-bottom: 60px  
     &__icon
         position: absolute
         left: 0

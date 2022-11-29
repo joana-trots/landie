@@ -13,7 +13,7 @@ const Navbar = ({navbarLinks}) => {
             {menuClicked ? (<FiX size={25} onClick={toggleMenuClick} className="navbar__icon"/>) : (<FiMenu size={25} onClick={toggleMenuClick} className="navbar__icon" />)}
             <nav>
                 {navbarLinks.map(item => {
-                    return <a href={item.url} title={item.title} key={item.title}>{item.title}</a>
+                    return <a onClick={toggleMenuClick} href={item.url} title={item.title} key={item.title}>{item.title}</a>
                 })}
             </nav>
             <img src={logo} alt="logo" className="navbar__logo"></img>
