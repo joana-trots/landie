@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/landie/static/css/main.fbbcdcd2.css",
-    "main.js": "/landie/static/js/main.3f0d015e.js",
+    "main.js": "/landie/static/js/main.2acf7b70.js",
     "static/js/787.a7cf236f.chunk.js": "/landie/static/js/787.a7cf236f.chunk.js",
     "static/media/hero_bg.svg": "/landie/static/media/hero_bg.8cd99a81bb31bbba4aa0.svg",
     "static/media/image_1.svg": "/landie/static/media/image_1.ebbb33910c6cffb06a82cd93d98ced7c.svg",
@@ -17,11 +17,11 @@
     "static/media/pricing_bg.svg": "/landie/static/media/pricing_bg.82c292bd9b0a2226c149.svg",
     "static/media/footer_bg.svg": "/landie/static/media/footer_bg.8fde981945ae5f6f7bb5.svg",
     "main.fbbcdcd2.css.map": "/landie/static/css/main.fbbcdcd2.css.map",
-    "main.3f0d015e.js.map": "/landie/static/js/main.3f0d015e.js.map",
+    "main.2acf7b70.js.map": "/landie/static/js/main.2acf7b70.js.map",
     "787.a7cf236f.chunk.js.map": "/landie/static/js/787.a7cf236f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fbbcdcd2.css",
-    "static/js/main.3f0d015e.js"
+    "static/js/main.2acf7b70.js"
   ]
 }
